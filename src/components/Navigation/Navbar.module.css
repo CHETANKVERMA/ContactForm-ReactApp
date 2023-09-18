@@ -1,0 +1,24 @@
+/* particular css */
+.navigation{
+    display: flex;
+ 
+    justify-content: space-between;
+    
+  
+}
+
+.navigation ul{
+    display:flex ; 
+    list-style-type: none;
+    align-items: center;
+    font-weight: 600;
+    gap: 30px;
+    margin-right: 10px;
+    /* dout1 */
+    /* justify-content: space-evenly; */
+}
+.navOnHover:hover{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+

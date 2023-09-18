@@ -1,0 +1,12 @@
+.buttonSection{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    border:none;
+    min-width: 220px;
+}
