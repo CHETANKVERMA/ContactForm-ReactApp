@@ -4,9 +4,9 @@ import styles from "../Buttons/Buttons.module.css"
 
 const Buttons = (props) => {
   return (
-    <button className={`${styles.buttonSection}`}>
+    <button className={props.conditionForButton ? styles.buttonBottom : styles.buttonTopTwo }>
        {props.icon}
-     {props.text}
+       {props.text}
    
     </button>
   )

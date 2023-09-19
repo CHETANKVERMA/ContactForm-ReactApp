@@ -1,11 +1,68 @@
 .container{
     display: flex;
+    justify-content: space-between;
+    
 }
 
-.form{
+.topButton{
     display: flex;
     gap: 10px;
-    margin: 30px auto auto 60px;
     justify-content: center;
+    margin:  30px auto auto 70px;
 
+}
+
+
+.emailButton{
+    display: flex;
+    justify-content:end ;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 86.4%;
+    margin: 4px auto auto 70px;
+
+
+}
+
+   .inputsInsideForm{
+    padding: 9px;
+   
+}
+
+textarea{
+    padding: 12px;
+    height: 50px;
+}
+
+
+.box label{
+    position: relative;
+    top: 12px;
+    background: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 360px;
+    padding: 0px 10px 0px 10px;
+    
+    
+}
+
+.submitButton{
+    margin: 30px auto auto 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.lastTagofForm{
+    margin: 20px;
+   
+    padding: 5px;
 }

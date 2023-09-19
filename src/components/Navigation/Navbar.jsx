@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "../../components/Navigation/Navbar.module.css"
 
-import icon1 from "../../images/iconNavbar.png"
 
 
 
@@ -10,7 +9,7 @@ const navbar = () => {
   return (
     <nav className={`${styles.navigation} `}>
       <div className="iconNavbar">
-        <img src={icon1} alt='logo'/>
+        <img src="TATA_1mg_Logo.svg.png" alt='logo' className={styles.headIcon}/>
       </div>
 
       <ul>

@@ -1,4 +1,13 @@
 /* particular css */
+
+.headIcon{
+    height: 30px;
+    padding: 10px;
+
+   
+}
+
+
 .navigation{
     display: flex;
  
@@ -20,5 +29,6 @@
 .navOnHover:hover{
     text-decoration: underline;
     color: darkslategrey;
+    cursor: pointer;
 }
 
